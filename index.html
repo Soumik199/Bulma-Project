@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecare</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#"> <img src="/image/logo.png" width="140" ></a>
+          <a class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>  
+
+        <div id="target" class="navbar-menu">
+            <div class="navbar-end" >
+              <a class="navbar-item">Home</a>
+              <a class="navbar-item">About </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" id="link">Services</a>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item"> Services Details </a>
+                  <a class="navbar-item"> Services  </a>
+                </div>
+              </div>
+              <a class="navbar-item">Solution</a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Blogs</a>
+                <div class="navbar-dropdown" id="drop">
+                  <a class="navbar-item">Blogs Details</a>
+                  <a class="navbar-item">Blog</a>
+                </div>
+              </div>
+              <a class="navbar-item">Contact Us</a>
+            </div>
+        </div>
+
+    </nav>
+    <!---------------------------------Section --------------------------------->
+    
+    <section class="hero is-small is-primary">
+      <div class="grid-container ">
+        <div class="grid-child1">
+            <div class="hero-body">
+              <h1 class="title">We Provide Remote<br> Health Care Services </h1><br>
+              <p class="subtitle"> “We believe consumer health technologies — apps, wearables,<br> self-diagnosis tools — have the potential to strengthen the patient-physician connection and improve health outcomes.”</p><br>
+              <div class="buttons">
+                  <div class="button1">
+                     <button class="button is-hovered">Get Started </button>
+                    </div>
+                    <div class="button2">
+                    <button class="button is-warning is-hovered">Get Appointent</button>
+                  </div>
+            </div>
+            <p class="subtitle">Have question?<span class="text"> Please Contact Us</span></p>
+                
+            </div>      
+        </div>
+    
+        <div class="grid-child2">
+               <div class="hero-body">
+                  <img src="/image/pic1.png" width="650">
+                </div>
+        
+        </div>
+      
+      </div>
+
+     </section>
+    <!------------------------------------------------------------------>
+     <section>
+       
+        <div class="topice">
+          <h1 class="head">Our Services</h1>
+          <p class="subheading">Features Providers and Patients Love</p>
+        </div>
+        <div id="services"></div>
+        
+     </section>
+ 
+    <script src="index.js"></script>
+</body>
+
+</html>
