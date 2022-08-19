@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecare</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <nav class="navbar is-light" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#"> <img src="/image/logo.png" width="140" ></a>
+          <a class="navbar-item" href="#"> <i class="fa fa-plus-circle" aria-hidden="true" style="font-size:50px ; color:red; padding-right: 10px;"></i> <h2 class="head1">Medi Care </h2></a>
           <a class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
             <span></span>
             <span></span>
@@ -21,72 +22,258 @@
 
         <div id="target" class="navbar-menu">
             <div class="navbar-end" >
-              <a class="navbar-item">Home</a>
+              <a class="navbar-item" href="">Home</a>
               <a class="navbar-item">About </a>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" id="link">Services</a>
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"> Services Details </a>
-                  <a class="navbar-item"> Services  </a>
-                </div>
-              </div>
+              <a class="navbar-item"  href="#services">Services</a>
               <a class="navbar-item">Solution</a>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Blogs</a>
-                <div class="navbar-dropdown" id="drop">
-                  <a class="navbar-item">Blogs Details</a>
-                  <a class="navbar-item">Blog</a>
-                </div>
-              </div>
               <a class="navbar-item">Contact Us</a>
+              
             </div>
+            
+              
+            
         </div>
 
     </nav>
-    <!---------------------------------Section --------------------------------->
+    <!---------------------------------Section 1 --------------------------------->
     
     <section class="hero is-small is-primary">
-      <div class="grid-container ">
-        <div class="grid-child1">
-            <div class="hero-body">
-              <h1 class="title">We Provide Remote<br> Health Care Services </h1><br>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6">
+            <div class="hero-body ">
+              <h1 class="title ">We Provide Remote<br> Health Care Services </h1><br>
               <p class="subtitle"> “We believe consumer health technologies — apps, wearables,<br> self-diagnosis tools — have the potential to strengthen the patient-physician connection and improve health outcomes.”</p><br>
               <div class="buttons">
                   <div class="button1">
-                     <button class="button is-hovered">Get Started </button>
+                     <button class="button is-hovered but">Get Started </button>
                     </div>
                     <div class="button2">
-                    <button class="button is-warning is-hovered">Get Appointent</button>
+                    <button class="button is-warning is-hovered but">Get Appointent</button>
                   </div>
             </div>
             <p class="subtitle">Have question?<span class="text"> Please Contact Us</span></p>
                 
             </div>      
+          </div>
+          <div class="column is-6">
+            <div class="hero-body">
+              <img src="/image/pic1.png" width="670">
+            </div>
+          </div>
+          
+         
         </div>
-    
-        <div class="grid-child2">
-               <div class="hero-body">
-                  <img src="/image/pic1.png" width="670">
-                </div>
-        
-        </div>
-      
-      </div>
 
      </section>
     <!---------------------Servicess--------------------------------------------->
-     <section>
+     <section id="services">
        
         <div class="topice">
-          <h1 class="head">Our Services</h1>
-          <p class="subheading">Features Providers and Patients Love</p>
+         
+          <h1 class="head"><i class="fa fa-heartbeat" aria-hidden="true" style="font-size:35px; color:red; align-items: center;margin-left:6px"></i> OUR SERVICES</h1>
+          <p class="subheading">Our Special Services For You</p>
         </div>
-        <div id="services"></div>
+        <div id="services">
+          <div class="card">
+            <div class="imgbox">
+              <img src="/image/pic.png" alt="" width="300" >
+            </div>
+            <div class="content">
+              <h6 class="heads"><i class="fa fa-phone-square" aria-hidden="true" style="font-size:23px; color:red; align-items: center;margin-left:6px"></i> 24x7 Emergency Services</h6>
+              <p >The hospital provides round-the-clock emergency services, with a facility that is fully equipped and managed by a dedicated team of qualified emergency care professionals. A well-defined emergency management system has been developed to increase efficiency of rescue efforts.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="imgbox">
+              <img src="/image/pic2.jpg" alt="" width="300">
+            </div>
+            <div class="content">
+              <h6 class="heads"><i class="fa fa-ambulance" aria-hidden="true" style="font-size:23px; color:rgb(7, 70, 107); align-items: center;margin-left:6px"></i> Pre-Hospital Care</h6>
+              <p >The fully air-conditioned ambulances are equipped with ventilators. All the ambulances have a wireless communication system with the emergency department of the hospital. The patient's details are discussed through this system with the expert consultants.</p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="imgbox">
+              <img src="/image/pic3.jpg" alt="" width="300">
+            </div>
+            <div class="content">
+              <h6 class="heads"><i class="fa fa-gratipay" aria-hidden="true" style="font-size:23px; color:rgb(255, 2, 2); align-items: center;margin-left:6px"></i> Health Insurance Policy</h6>
+              <p>Mecare Health Insurance has a vast network of 9,279 cashless hospitals to meet the medical needs of all its policyholders. Since Star cashless hospitals are available all over India, policyholders can easily go for cashless treatment without getting concerned about finding a good hospital at the last minute.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="imgbox">
+              <img src="/image/pic5.jpg" alt="" width="300">
+            </div>
+            <div class="content">
+              <h6 class="heads"><i class="fa fa-user-md" aria-hidden="true" style="font-size:23px; color:rgb(87, 11, 81); align-items: center;margin-left:6px"></i> Mointering Health </h6>
+              <p>The patients at the hospital may be kept under observation to monitor the progress. Condition of the patient can be analyzed on the basis of display on the monitoring unit. </p>
+            </div>
+          </div>
+
+        </div>
         
      </section>
+     <div>
+     
+    <!---------------Section of Provide us-------------------------->
+    <section class="hero is-small  is-light ">
+      <div class="container">
+        <div class="columns bg">
+          
+          <div class="column is-6">
+            <div class="hero-body">
+              <img src="/image/pic6.png" width="700">
+            </div>
+          </div>
+          <div class="column is-6">
+            <div class="hero-body ">
+              <div class="topice">
+                <h1 class="head1"><i class="fa fa-user-md" aria-hidden="true" style="font-size:35px; color:rgb(255, 39, 1); align-items: center;margin-left:6px"></i> What We Provide</h1>
+                 <p class="subhead">Resolves the disease by making face-to-face <br>contact with patients on the telehealth platform, & Also provide 24*7 <br>Best Class Doctor Consultant cross the 28 States in India. </p><br>
+                 
+                 <h6 class="progresshead">Of patients are interested in using telemedicine</h6>
+                 <progress class="progress is-primary" value="50" max="100">15%</progress>
+                 <h6 class="progresshead">Of patients are interested in using telemedicine</h6>
+                 <progress class="progress is-info" value="90" max="100">15%</progress>
+                 <h6 class="progresshead">Of patients use telemedicine due to short travel time</h6>
+                 <progress class="progress is-warning" value="60" max="100">15%</progress>
+                 <h6 class="progresshead"> Interested consulting with doctor in using telemedicine</h6>
+                 <progress class="progress is-danger" value="70" max="100">15%</progress>
+                 <h6 class="progresshead"> Interested consulting for Mediences in using telemedicine</h6>
+                 <progress class="progress is-link" value="26" max="100">15%</progress>
+                 <br>
+              </div>
+              
+                
+            </div>      
+          </div>
+        </div>
+  </section>
  
-    <script src="index.js"></script>
-   
-</body>
+  
+   <!-----------------Section of Achievement-------------------------->
+   <section class="cont">
+   <div id="Achieve">
+    <div class="cards">
+      <div class="cards-image">
+        <figure class="image is-1by0">
+          <img src="/image/img7.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="cards-content">
+         <span class="count">5000+</span><br>
+         <span class="subcount">Doctors At Work</span>
+      </div>
+    </div>
 
+    <div class="cards">
+      <div class="cards-image">
+        <figure class="image is-1by0">
+          <img src="/image/img2.png" alt="Placeholder image">
+        </figure>
+      </div>
+        <div class="cards-content">
+          <span class="count">58796+</span><br>
+          <span class="subcount">Happy Patients</span>
+      </div>
+    </div>
+
+
+    <div class="cards">
+      <div class="cards-image">
+            <figure class="image is-1by0">
+              <img src="/image/img3.png" alt="Placeholder image">
+            </figure>
+          </div>
+            <div class="cards-content">
+              <span class="count">500+</span><br>
+              <span class="subcount">Medical Beds</span>
+            </div>
+          
+    </div>
+      <div class="cards">
+        <div class="cards-image">
+          <figure class="image ">
+            <img src="/image/img4.png" alt="Placeholder image">
+          </figure>
+        </div>
+          <div class="cards-content">
+            <span class="count">200+</span><br>
+            <span class="subcount">Winning Awards</span>
+          </div>
+    </div>
+
+  </div>
+   </section>
+  <!--------------------Section of Dep.-------------------------------->
+   <section class=" hero  is-light is-small ">
+    <div class="columns">
+      <div class="column is-size-6-desktop is-size-12-mobile ">
+        <div class="hero-body bg">
+          <div class="topice">
+            <h1 class="head1"><i class="fa fa-building-o" aria-hidden="true" style="font-size:35px; color:rgb(255, 39, 1); align-items: center;margin-left:6px"></i> our department</h1>
+             <p class="subhead">We Take Care Of Your  Healthy It is more important than the<br> wealth we have. Only when we have a proper <br>health we will able to get the necessary wealth in our life</p><br>
+          </div>
+          <div class="cardep">
+            <div class="icon">
+              <div class="picdep">
+                <img  src="/image/de2.png" width="200">
+              </div>
+            </div>
+            <div class="pictext">
+              <h1 class="pichead">Dental</h1>
+              <p class="parhead">Our Dental Department is fully equipped to handle everything from routine care to emergency dental work and offers an extensive range of services</p>
+         </div>
+          </div>
+
+          <div class="cardep">
+            <div class="icon">
+              <div class="picdep">
+                <img  src="/image/de1.png" width="200">
+              </div>
+            </div>
+            <div class="pictext">
+              <h1 class="pichead">Paramedical</h1>
+              <p class="parhead">Paramedical departments are adjunctive to the practice of medicine in the maintenance or restoration of health and normal functioning. </p>
+         </div>
+          </div>
+
+          <div class="cardep">
+            <div class="icon">
+              <div class="picdep">
+                <img  src="/image/de3.png" width="200">
+              </div>
+      
+            </div>
+            <div class="pictext">
+              <h1 class="pichead">Outpatient (OPD) </h1>
+              <p class="parhead">Our Dental Department is fully equipped to handle everything from routine care to emergency dental work and offers an extensive range of services</p>
+         </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="column hero-body is-6 ">
+       
+          <img class="imgs" src="http://zcube.in/mecare/img/bg/de-illustration.png" >
+      
+      
+      </div>
+    </div>
+
+   </section>
+   <!--------------------------------------------------------------->
+   <div class="topice">
+            <h1 class="head"><i class="fa fa-users" aria-hidden="true" style="font-size:35px; color:rgb(255, 39, 1); align-items: center;margin-left:6px"></i> our Team</h1>
+             <p class="subhead">Docter’s In The Medical Sciences</p><br>
+          </div>
+    <script src="index.js"></script>
+    
+</body>
 </html>
