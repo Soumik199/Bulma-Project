@@ -42,7 +42,7 @@
     font-size: 25px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size:27px;
     font-weight:300; 
     color:#222; 
@@ -102,7 +102,6 @@
     background-repeat: no-repeat;
     background-size:cover;
     padding-bottom: 40px;
-    
 }
 
 #services .card{
@@ -195,7 +194,7 @@
     color: #1e0b9b;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
-    margin-bottom: 13px;
+   
     display: inline-block;
 }
 .subcount{
@@ -204,7 +203,6 @@
 }
 .cards-content{
     text-align: center;
-    margin-top: 10px;
 }
 .imgboxs{
     margin-top:50px;
@@ -259,6 +257,38 @@ padding: 20px;
     font-size: 16px;
     padding-right: 10px;
 }
+
+
+.counts{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+     color: #1e0b9b;
+     font-size: 25px;
+     font-weight: 500;
+}
+.pricecontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardplan{
+    position: relative;
+    box-shadow: 3px 4px 15px #00000026;
+    border-radius: 10px;
+    margin-left: 15px; 
+    background: #FFFFFF 0% 0% no-repeat padding-box; 
+    height: 450px;
+    width: 300px;
+    box-shadow: 3px 4px 15px #85f5d9ad;
+}
+.subcounts{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2279fc;
+    font-weight: 500;
+}
 @media only screen and (max-width: 776px) {
     .cardep{
         position: relative;
@@ -276,12 +306,17 @@ padding: 20px;
         margin-top: 5px;
         margin-left: 10px;
      }
+     .imgs{
+        width:100%;
+       height: 50%;
+        padding-top: 20px;
+    }
 }
 @media only screen and (max-width: 400px) {
     .cardep{
         position: relative;
-        width:270px;
-        height: 300px;
+        width:260px;
+        height: 320px;
         box-shadow: 3px 4px 15px #00000026;
         border-radius: 10px;
         margin-top:10px;  
@@ -289,6 +324,7 @@ padding: 20px;
         display: grid;
         grid-template-columns: 1fr 3fr;
         margin-bottom: 20px;
+        margin-left:-2px;
     }
     .pictext{
         margin-top: 5px;
