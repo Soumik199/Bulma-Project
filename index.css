@@ -190,7 +190,7 @@
     }
     .cardep{
         width:330px;
-        height: 220px; 
+        height: 230px; 
         padding: 5px 10px;
         margin-left: 10px;
     }
@@ -201,7 +201,7 @@
      }
      
      .cardplan{
-        height: 600px;
+        height: 580px;
         width: 300px;
     }
 }
