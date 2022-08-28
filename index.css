@@ -170,7 +170,7 @@
     .cardep{
         position: relative;
         width:410px;
-        height: 200px;
+        height: 210px;
     }
     .pictext{
         margin-top: 5px;
@@ -190,7 +190,7 @@
     }
     .cardep{
         width:330px;
-        height: 215px; 
+        height: 220px; 
         padding: 5px 10px;
         margin-left: 10px;
     }
@@ -201,15 +201,7 @@
      }
      
      .cardplan{
-        position: relative;
-        height: 530px;
+        height: 600px;
         width: 300px;
-    }
-}
-@media only screen and (max-width: 200px){
-    .cardep{
-        width:250px;
-        height: 360px; 
-        padding: 5px 10px;
     }
 }
