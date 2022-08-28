@@ -1,4 +1,4 @@
-.hero-body .title, .subtitle, .text, .but, .head,.subheading,.head1,.about
+.hero-body .title, .subtitle, .text, .but, .head,.subheading,.head1,.about,.title
 {
    font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -25,6 +25,14 @@
     background:url("http://zcube.in/mecare/img/an-bg/an-bg02.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+.box{
+    box-shadow: 3px 4px 15px #bbf6f6;
+    border-radius:20px ;  
+}
+/*Control the box size*/
+.boxf{
+    height: 435px;
 }
 /* ----------------------------CARD 1----------------------------------------- */
 #services{
@@ -68,76 +76,6 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
-
-/*
-#service{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    background:url("http://zcube.in/mecare/img/an-bg/an-bg04.png");
-    background-size: contain;
-    background-repeat: no-repeat; 
-}
-
-#service .card{
-    position: relative;
-    width:300px;
-    height: 310px;
-    border-radius: 20px;
-    background: rgba(240, 237, 237, 0.272);
-    box-shadow: 3px 4px 15px #85f5d9ad;
-    
-}
-#service .card .imgbox img
-{
-       position: absolute;
-       top:0;
-       bottom:0;
-       height: 80%;
-       transition: 0.2s;
-       
-}
-.cardbox:hover .imgboxs img
-{
-   opacity: 0;
-} 
-
-
-#service .card .content
-{
-    position: absolute;
-    bottom: 10px;
-    left:15%;
-    background-color: #d7d0d05a;
-    width:85%;
-    height: 40px;
-    transition: 0.5s;
-    overflow: hidden;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-
-#service .card:hover .content
- {
-    width: 100%;
-    height: 100%;
-    bottom:0px;
-    left:0px;
-    margin-top:10px;
-    background-color: rgba(211, 207, 207, 0.849);
-    text-align: center;
-    color:rgb(13, 13, 13)
-}
-
-#service .card .content .heads{
-    margin-top: 10px;
-    text-align: center;
-}*/
 /* ----------------------------CARD 3----------------------------------------- */
 .cards{
     position: relative;
@@ -167,6 +105,7 @@
     position: relative;
     width:510px;
     height: 125px;
+    margin-left:60px;
     box-shadow: 3px 4px 15px #00000026;
     border-radius: 10px; 
     background: #FFFFFF 0% 0% no-repeat padding-box; 
@@ -230,6 +169,7 @@
         position: relative;
         width:310px;
         height: 250px;
+       
     }
     .pictext{
         margin-top: 5px;
@@ -244,13 +184,15 @@
 
 @media only screen and (max-width: 400px) {
     #services{
-        margin-left: 20px;
+        margin-left: -10px;
     }
     .cardep{
-        width:280px;
-        height: 320px;
-        margin-left:-4px;
+        width:290px;
+        height: 350px; 
+        padding: 5px 10px;
+        margin-left: 10px;
     }
+    
     .pictext{
         margin-top: 5px;
         margin-left: 10px;
