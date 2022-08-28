@@ -181,20 +181,16 @@
         height: 70%;
         padding-top: 20px;
     }
-    .cardplan{
-        position: relative;
-        height: 500px;
-        width: 300px;
-    }
+    
 }  
 
 @media only screen and (max-width: 400px) {
     #services{
-        margin-left: -10px;
+        margin-left: 17px;
     }
     .cardep{
-        width:290px;
-        height: 350px; 
+        width:330px;
+        height: 210px; 
         padding: 5px 10px;
         margin-left: 10px;
     }
@@ -206,7 +202,14 @@
      
      .cardplan{
         position: relative;
-        height: 450px;
+        height: 510px;
         width: 300px;
+    }
+}
+@media only screen and (max-width: 200px){
+    .cardep{
+        width:250px;
+        height: 360px; 
+        padding: 5px 10px;
     }
 }
