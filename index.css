@@ -164,12 +164,13 @@
 
 
 @media only screen and (max-width: 776px) {
-
+    #services{
+        margin-left: -10px;
+    }
     .cardep{
         position: relative;
-        width:310px;
-        height: 250px;
-       
+        width:410px;
+        height: 200px;
     }
     .pictext{
         margin-top: 5px;
@@ -179,6 +180,11 @@
         width:100%;
         height: 70%;
         padding-top: 20px;
+    }
+    .cardplan{
+        position: relative;
+        height: 500px;
+        width: 300px;
     }
 }  
 
