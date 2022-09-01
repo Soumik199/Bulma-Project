@@ -36,7 +36,7 @@
 }
 /* ----------------------------CARD 1----------------------------------------- */
 #services{
-    background:url("http://zcube.in/mecare/img/an-bg/an-bg02.png");
+    background:url("service.png");
     background-size: contain;
     background-repeat: no-repeat; 
 }
@@ -72,7 +72,7 @@
     color:rgb(13, 13, 13)
 }
 #Achieve{
-    background:url("http://zcube.in/mecare/img/an-bg/an-bg04.png");
+    background:url("Achieve.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -166,7 +166,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 .news{
-    background-image: url("http://zcube.in/mecare/img/an-bg/footer-bg.png");
+    background-image: url("footer.png");
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -212,7 +212,7 @@
      }
      
      .cardplan{
-        height: 500px;
+        height: 550px;
         width: 300px;
     }
      .col{
