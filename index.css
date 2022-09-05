@@ -32,7 +32,7 @@
 }
 /*Control the box size*/
 .boxf{
-    height: 435px;
+    height:510px;
 }
 /* ----------------------------CARD 1----------------------------------------- */
 #services{
@@ -130,32 +130,6 @@
     padding-top: 20px;
 }
 
-
-/*Blog*/
-.counts{
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
-     color: #1e0b9b;
-     font-size: 25px;
-     font-weight: 500;
-}
-.pricecontainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-.cardplan{
-    position: relative;
-    box-shadow: 3px 4px 15px #00000026;
-    border-radius: 10px;
-    margin-left: 15px; 
-    background: #FFFFFF 0% 0% no-repeat padding-box; 
-    height: 450px;
-    width: 300px;
-    box-shadow: 3px 4px 15px #85f5d9ad;
-}
 .field{
     width: 300px;
     margin-left:10px;
@@ -211,10 +185,6 @@
         margin-left: 10px;
      }
      
-     .cardplan{
-        height: 550px;
-        width: 300px;
-    }
      .col{
         margin-left: 15%;
         

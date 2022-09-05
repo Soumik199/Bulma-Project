@@ -13,7 +13,7 @@
   <!-------------------------------------------Navabar-------------------->
     <nav class="navbar is-light px-3 pt-2" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#"> <i class="fa fa-plus-circle" aria-hidden="true" style="font-size:50px ; color:red; padding-right: 10px;"></i> <h2 class="head1">Medi Care </h2></a>
+          <a class="navbar-item" href="#"> <i class="fa fa-plus-circle" aria-hidden="true" style="font-size:50px ; color:red; padding-right: 10px;"></i> <h2 class="head1 is-size-4-desktop is-size-6-mobile">Medi Care </h2></a>
           <a class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
             <span></span>
             <span></span>
@@ -24,12 +24,11 @@
         <div id="target" class="navbar-menu">
             <div class="navbar-end" >
               
-              <a class="navbar-item" href="">Home</a>
-              <a class="navbar-item">About </a>
-              <a class="navbar-item"  href="#services">Services</a>
-              <a class="navbar-item">Solution</a>
-              <a class="navbar-item">Contact Us</a>
-              
+              <a class="navbar-item " href="">Home</a>
+              <a class="navbar-item" href="#about">About </a>
+              <a class="navbar-item" href="#services">Services</a>
+              <a class="navbar-item" href="#dept">Our Department</a>
+              <a class="navbar-item" href="#blog">Blog</a>
             </div>
             
               
@@ -48,10 +47,10 @@
               <p class="subtitle has-text-centered is-size-5"> “We believe consumer health technologies — apps, wearables,<br> self-diagnosis tools — have the potential to strengthen the patient-physician connection and improve health outcomes.”</p><br>
               <div class="buttons mr-6 is-flex-direction-row  is-justify-content-space-evenly">
                   <div class="button1">
-                     <button class="button is-hovered is-size-6 but">Get Started </button>
+                     <button class="button is-hovered is-size-6 but"><a href="#get">Get Started </a></button>
                     </div>
                     <div class="button2">
-                    <button class="button is-warning is-hovered  is-size-6 but">Get Appointent</button>
+                    <button class="button is-warning is-hovered  is-size-6 but"><a href="#appt">Get Appointent</a></button>
                   </div>
             </div>
             <p class="subtitle has-text-centered is-size-5">Have question?<span class="text is-underlined has-text-white"> Please Contact Us</span></p>
@@ -127,7 +126,7 @@
      
     <!---------------Section of Provide us-------------------------->
     <section class="hero is-small  is-light ">
-      <div class="container">
+      <div class="container" id="get">
         <div class="columns bg">
           
           <div class="column is-6">
@@ -217,7 +216,7 @@
    </section>
   <!--------------------Section of Dep.-------------------------------->
    <section class=" hero  is-light is-small ">
-    <div class="columns">
+    <div class="columns" id="dept">
       <div class="column is-6 ">
         <div class="hero-body bg">
           <div class="topice">
@@ -278,44 +277,38 @@
    </section>
 <!---------------------------Price----------------------------->
 <section class="bg">
-  <div class="topice mt-5 ">
+  <div class="topice mt-4 ">
     <h1 class="head has-text-centered has-text-weight-semi-bold is-uppercase has-text-dark is-size-3 "><i class="fa fa-cart-plus" aria-hidden="true" style="font-size:35px; color:rgb(255, 39, 1); align-items: center;margin-left:6px"></i> Plans & Pricing</h1>
      <p class="subhead mt-2 has-text-centered is-size-5-desktop is-size-6-mobile ">No Hidden Charge Choose Your Plan</p><br>
   </div>
-  <div class="pricecontainer">
-    <div class="cardplan mb-5">
-      <div class="cards-content has-text-centered">
-         <p class="counts mt-2">Standard</p>
-         <p class="subcount is-size-6-desktop">Message, Phone</p>
-         <h2 class="subcounts is-size-4-desktop  is-size-6-mobile has-text-weight-semibold">Rs 9,400/-</h2>
-      </div>
-      <div class="list ">
-        <ul class="mx-4">
+  <div class="tile is-ancestor is-flex-direction-row is-justify-content-center is-flex-wrap-wrap mt-2 mb-3">
+    
+    <div class="tile is-parent  is-3 mx-3 mb-3">
+      <!-- Add content to tiles   -->
+      <article class="tile is-child box ">
+        <p class="counts has-text-centered">Standard</p>
+         <p class="subcount is-size-6-desktop has-text-centered">Message, Phone</p>
+         <h2 class="subcounts is-size-4-desktop  is-size-6-mobile has-text-weight-semibold has-text-centered">Rs 9,400/-</h2>
+         <ul class="has-text-centered">
           <li>120 Inclusive minutes per user <i class="fa fa-check mx-3 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
-          <li>Takes Unlimited consultations <i class="fa fa-check mx-3 my-3 " aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
-          <li>Unlimited audio conferencing <i class="fa fa-times ml-4 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
+          <li>Takes Unlimited consultations <i class="fa fa-times mx-3 my-3 " aria-hidden="true" style="font-size: 15px; color:rgb(192, 3, 3)"></i></li>
           <li>Take Unlimited Video meetings <i class="fa fa-times ml-2 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(212, 11, 11)"></i></li>
           <li> Takes Services  reports sharing <i class="fa fa-times ml-4 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(212, 11, 11)"></i></li>
           <li> Facility Mobile & Desktop apps <i class="fa fa-check mx-3 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li> Takes 24/7 access via text, phone<i class="fa fa-check mx-2 my-3" aria-hidden="true" style="font-size: 15px;color:rgb(59, 192, 3)"></i></li>
-          
          </ul>
          <button class="button is-info is-outlined are-large mx-6 mt-2"> Let Started</button>
-      </div>
+      </article>
     </div>
-
-
-    <div class="cardplan mb-5">
-      <div class="cards-content has-text-centered">
-         <p class="counts mt-2">Advanced</p>
-         <p class="subcount is-size-6-desktop">Message,Video,Phone</p>
-         <h2 class="subcounts is-size-4-desktop  is-size-6-mobile has-text-weight-semibold">Rs 11,400/-</h2>
-      </div>
-      <div class="list ">
-        <ul class="mx-4">
+    <div class="tile is-parent  is-3 mx-3 mb-3">
+      <!-- Add content to tiles   -->
+      <article class="tile is-child box ">
+        <p class="counts mt-2  has-text-centered">Advanced</p>
+        <p class="subcount is-size-6-desktop has-text-centered">Message,Video,Phone</p>
+        <h2 class="subcounts is-size-4-desktop  is-size-6-mobile has-text-weight-semibold has-text-centered">Rs 11,400/-</h2>
+         <ul class="has-text-centered">
           <li>120 Inclusive minutes per user <i class="fa fa-check mx-3 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li>Takes Unlimited consultations <i class="fa fa-check mx-3 my-3 " aria-hidden="true" style="font-size: 15px; color:rgb(74, 212, 11)"></i></li>
-          <li>Unlimited audio conferencing <i class="fa fa-check ml-4 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(74, 212, 11)"></i></li>
           <li>Take Unlimited Video meetings <i class="fa fa-times ml-2 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(212, 11, 11)"></i></li>
           <li> Takes Services  reports sharing <i class="fa fa-times ml-4 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(212, 11, 11)"></i></li>
           <li> Facility Mobile & Desktop apps <i class="fa fa-check mx-3 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
@@ -323,38 +316,33 @@
           
          </ul>
          <button class="button is-info is-outlined mx-6 mt-2 is-halfwidth "> Let Started</button>
-      </div>
+      </article>
     </div>
-
-    <div class="cardplan mb-5">
-      <div class="cards-content has-text-centered">
-         <p class="counts mt-2">Customized</p>
-         <p class="subcount is-size-6-desktop">Chat, Video, Phone</p>
-         <h2 class="subcounts is-size-4-desktop  is-size-6-mobile has-text-weight-semibold">Rs 15,400/-</h2>
-      </div>
-      <div class="list ">
-        <ul class="mx-4">
+    <div class="tile is-parent  is-3 mx-3 mb-3">
+      <!-- Add content to tiles   -->
+      <article class="tile is-child box ">
+        <p class="counts mt-2  has-text-centered">Customized</p>
+         <p class="subcount is-size-6-desktop has-text-centered">Chat, Video, Phone</p>
+         <h2 class="subcounts is-size-4-desktop  is-size-6-mobile has-text-weight-semibold has-text-centered">Rs 15,400/-</h2>
+         <ul class="has-text-centered">
           <li>120 Inclusive minutes per user <i class="fa fa-check mx-3 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li>Takes Unlimited consultations <i class="fa fa-check mx-3 my-3 " aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
-          <li>Unlimited audio conferencing <i class="fa fa-check ml-4 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li>Take Unlimited Video meetings <i class="fa fa-check ml-2 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li> Takes Services  reports sharing <i class="fa fa-check ml-4 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li> Facility Mobile & Desktop apps <i class="fa fa-check mx-3 my-3" aria-hidden="true" style="font-size: 15px; color:rgb(59, 192, 3)"></i></li>
           <li> Takes 24/7 access via text, phone<i class="fa fa-check mx-2 my-3" aria-hidden="true" style="font-size: 15px;color:rgb(59, 192, 3)"></i></li>
           
          </ul>
-         <button class="button is-info is-outlined are-large mx-6 mt-2"> Let Started</button>
-      </div>
+         <button class="button is-info is-outlined  mx-6 mt-2"> Let Started</button>
+      </article>
     </div>
-  </div>
-  </div>
-</div>
+
 
 </section>
 <!-------------------------Make a appointent------------------------------------------->
 <section class="hero is-small is-light mt-5 pb-5">
  
-  <div class="columns">
+  <div class="columns" id="appt">
     <div class="colunm is-6 mt-5 ml-6">
       <div class="hero-body bg">
         <img class="imgapp"src="cap2.png" width="600">
@@ -535,10 +523,16 @@
       <!-- Add content to tiles   -->
       <article class="tile is-child box ">
         <p class="title has-text-centered is-size-6-desktop is-size-6-mobile has-text-weight-medium is-italic"> "DR.Udhansu is a renowned Cardiac surgeon in Mumbai. He currently practices at Sir HN Reliance Foundation hospital and done research  in Mumbai." </p>
-        <figure class="image is-138x138">
+        <figure class="image is-138x138-desktop is-96x96-mobile ">
           <img class="is-rounded" src= "doc1.jpg">
         </figure>
-        <p class="title has-text-centered is-size-6 mt-5 has-text-danger-dark is-italic">DR.Udhansu <br><span>Senior Consultant</span> </p>
+        <p class="title has-text-centered is-size-6 mt-5 has-text-danger-dark is-italic">DR.Udhansu <br><span>Senior Consultant</span> <br> <br><span>Connect With Us</span></p>
+
+        <p class="has-text-centered">
+        <span class="mx-2"><i class="fa fa-facebook-square" aria-hidden="true"  style="font-size:23px; color:rgb(6, 55, 249)"></i></span>
+        <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:20px; color:rgb(249, 6, 30)"></i></span>
+        <span class="mx-2"> <i class="fa fa-google-plus " aria-hidden="true"  style="font-size:20px; color:rgb(109, 110, 110)"></i></span>
+          <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:23px; color:rgb(252, 4, 4)"></i></span></p>
       </article>
     </div>
 
@@ -549,7 +543,12 @@
         <figure class="image is-138x138">
           <img class="is-rounded" src= "doc2.jpg">
         </figure>
-        <p class="title has-text-centered is-size-6 mt-5 has-text-success-dark is-italic">Dr. Manuel Tannehill <br><span>Senior Consultant</span> </p>
+        <p class="title has-text-centered is-size-6 mt-5 has-text-success-dark is-italic">Dr. Manuel Tannehill <br><span>Senior Consultant</span> <br> <br><span>Connect with Us</span> </p>
+        <p class="has-text-centered ">
+          <span class="mx-2"><i class="fa fa-facebook-square" aria-hidden="true"  style="font-size:23px; color:rgb(249, 6, 42)"></i></span>
+          <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:20px; color:rgb(6, 38, 249)"></i></span>
+          <span class="mx-2"> <i class="fa fa-google-plus " aria-hidden="true"  style="font-size:20px; color:rgb(111, 113, 115)"></i></span>
+            <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:23px; color:rgb(252, 4, 4)"></i></span></p>
       </article>
     </div>
     <div class="tile is-parent  is-2 mx-4 mb-4">
@@ -559,7 +558,12 @@
         <figure class="image is-138x138">
           <img class="is-rounded" src= "doc3.jpg">
         </figure>
-        <p class="title has-text-centered is-size-6 mt-5 has-text-danger-dark is-italic">Dr.Gagan Gautam<br><span>Senior Consultant</span> </p>
+        <p class="title has-text-centered is-size-6 mt-5 has-text-danger-dark is-italic">Dr.Gagan Gautam<br><span>Senior Consultant</span><br> <br><span>Connect with Us</span> </p>
+        <p class="has-text-centered">
+          <span class="mx-2"><i class="fa fa-facebook-square" aria-hidden="true"  style="font-size:23px; color:rgb(6, 55, 249)"></i></span>
+          <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:20px; color:rgb(249, 6, 30)"></i></span>
+          <span class="mx-2"> <i class="fa fa-google-plus " aria-hidden="true"  style="font-size:20px; color:rgb(111, 113, 115)"></i></span>
+            <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:23px; color:rgb(252, 4, 4)"></i></span></p>
       </article>
     </div>
     <div class="tile is-parent  is-2 boxf mx-4 mb-4">
@@ -569,21 +573,22 @@
         <figure class="image is-138x138">
           <img class="is-rounded" src= "doc5.jpg">
         </figure>
-        <p class="title has-text-centered is-size-6 mt-5 has-text-success-dark is-italic">Dr. Sandeep Batra<br><span>Senior Consultant</span> </p>
+        <p class="title has-text-centered is-size-6 mt-5 has-text-success-dark is-italic">Dr. Sandeep Batra<br><span>Senior Consultant</span> <br> <br><span>Connect with Us</span></p>
+        <p class="has-text-centered">
+          <span class="mx-2"><i class="fa fa-facebook-square" aria-hidden="true"  style="font-size:25px; color:rgb(6, 55, 249)"></i></span>
+          <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"  style="font-size:25px; color:rgb(249, 6, 30)"></i></span>
+          <span class="mx-2"> <i class="fa fa-google-plus " aria-hidden="true"  style="font-size:23px; color:rgb(111, 113, 115)"></i></span>
+            <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"  style="font-size:25px; color:rgb(252, 4, 4)"></i></span></p>
       </article>
-    </div>
-
-    
-  
-    
+    </div> 
   </div>
   
 </div>
     </section>
 
 <!-------------------------About us------------------------------->
-<section class="hero is-small mt-6 bg ">
-   <div class="columns">
+<section class="hero is-small mt-6 bg " >
+   <div class="columns" id="about">
     <div class="column is-6">
       <div class="topice mt-6">
         <h1 class="head  has-text-centered has-text-weight-semi-bold is-uppercase has-text-dark is-size-3"><i class="fa fa-users" aria-hidden="true" style="font-size:35px; color:rgb(255, 39, 1); align-items: center;margin-left:6px"></i> About Us</h1>
@@ -602,7 +607,7 @@
 </section>
 <!----------------------BLOG---------------------->
 <section>
-<div class="topice">   
+<div class="topice mt-5 mb-2" id="blog">   
   <h1 class="head head  has-text-centered has-text-weight-semi-bold is-uppercase has-text-dark is-size-3-desktop is-size-4-mobile"><i class="fa fa-newspaper-o" aria-hidden="true" style="font-size:35px; color:red; align-items: center;margin-left:6px"></i> OUR LATEST BLoG</h1>
   <p class="subhead ml-4 has-text-centered is-size-5-desktop is-size-6-mobile ">Stay Updated To Our Blog & News</p>
 </div>  
