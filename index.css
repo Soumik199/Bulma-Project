@@ -31,10 +31,7 @@
     border-radius:20px ;  
 }
 /*Control the box size*/
-.boxf{
-    height:510px;
-    margin-bottom: 30px;
-}
+
 /* ----------------------------CARD 1----------------------------------------- */
 #services{
     background:url("service.png");
